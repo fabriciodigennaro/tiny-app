@@ -1,3 +1,1 @@
-<button (click)="buttonClick()">
-  {{ name }}
-</button>
+<app-button [name]="name" (clickAlert)="alertMessage($event)"></app-button>
