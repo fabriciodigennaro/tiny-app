@@ -1,0 +1,5 @@
+    <ul class="side-bar">
+        <li *ngFor="let item of sideItems" class="item">
+            <a uppercase *ngIf="item.show">{{ item.title }}</a>
+        </li>
+    </ul>

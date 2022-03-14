@@ -2,3 +2,12 @@
   width: 30px;
   height: 15px;
 }
+
+.day {
+  background-color: bisque;
+}
+
+.night {
+  background-color: blue;
+  color: white;
+}

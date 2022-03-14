@@ -1,0 +1,17 @@
+ul {
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+li {
+  list-style: none;
+}
+
+.item {
+  margin: 10px;
+}
+
+.side-bar {
+  width: 150px;
+  height: 90%;
+}

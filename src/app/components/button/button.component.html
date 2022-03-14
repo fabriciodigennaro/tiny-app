@@ -1,3 +1,3 @@
-<button  (click)="buttonClick()">
+<button  (click)="buttonClick()" [ngClass]="color === 'light'? 'day': 'night'">
   {{ name }}
 </button>
