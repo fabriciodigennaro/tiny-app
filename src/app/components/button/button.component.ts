@@ -11,6 +11,7 @@ export class ButtonComponent {
   @Output() clickAlert = new EventEmitter<string>();
 
   buttonClick() {
-    this.clickAlert.emit(`Perro`);
+    this.color = 'dark';
+    this.clickAlert.emit(`Se cambió el tema`);
   }
 }

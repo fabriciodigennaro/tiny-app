@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Tiny-app';
-  buttonName: string = 'Click me!';
+  buttonName: string = 'cambiar color!';
 }

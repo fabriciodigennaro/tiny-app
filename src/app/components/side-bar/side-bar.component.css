@@ -1,6 +1,7 @@
 ul {
   padding: 0;
-  background-color: antiquewhite;
+  background-color: #6457A6;
+  margin: 0;
 }
 
 li {
@@ -8,10 +9,19 @@ li {
 }
 
 .item {
-  margin: 10px;
+  margin: 0 10px 10px;
+  color: #76E5FC;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.item:hover {
+  font-size:1.8rem;
 }
 
 .side-bar {
   width: 150px;
-  height: 90%;
+  height: 85%;
+  padding-top: 10px;
+  border-radius: 0 5px 5px 0;
 }
