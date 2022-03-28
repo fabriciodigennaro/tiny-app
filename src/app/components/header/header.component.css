@@ -2,7 +2,7 @@
 .header {
     display: inline-flex;
     background-color: #5C2751;
-    min-height: 50px;
+    height: 70px;
     width: 100%;
 }
 

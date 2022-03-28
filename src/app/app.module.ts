@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { ButtonComponent } from './components/button/button.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { Uppercase } from './directives/uppercase.directive.component';
+import { ReversePipe } from './pipes/reverse.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { Uppercase } from './directives/uppercase.directive.component';
     BodyComponent,
     ButtonComponent,
     SideBarComponent,
-    Uppercase
+    Uppercase,
+    ReversePipe
   ],
   imports: [
     BrowserModule
