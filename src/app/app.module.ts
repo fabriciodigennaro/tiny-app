@@ -8,6 +8,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { Uppercase } from './directives/uppercase.directive.component';
 import { ReversePipe } from './pipes/reverse.pipe';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ReversePipe } from './pipes/reverse.pipe';
     ReversePipe
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -3,4 +3,5 @@
   <app-button [color]="'light'" [name]="name" (clickAlert)="alertMessage($event)"></app-button>
   <h1> {{ date | date:"dd/MM/yyyy" }} </h1>
   <h1> {{ text | uppercase | reverse }} </h1>
+  <router-outlet></router-outlet>
 </div>
